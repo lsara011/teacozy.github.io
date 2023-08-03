@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+}
+
+
+body{
+    background-color: black;
+    text-align: center;
+}
+
+.header-container{
+    display: flex;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-container img{
+    height: 50px;
+    margin-left: 10px;
+}
+
+.navlinks{
+    display: flex;
+    text-decoration: underline;
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+}
+
+.navlinks li{
+    margin: 0 15px;
+}
+
+.mission-container{
+    height: 700px;
+    background-image: url("img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.mission-description{
+    background-color: black;
+    line-height: 50px;
+    padding: 5px;
+    top: 35%;
+    position: relative;
+    text-align: center;
+}
+
+
+.month-container{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.month-container h2,
+.month-container h4{
+    padding: 10px;
+}
+
+.product-wrapper{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-basis: 1000px;
+}
+
+.product{
+    padding: 10px;
+}
+
+.product img{
+    height: 200px;
+    width: 300px;
+}
+
+.product h2{
+    padding-top: 10px;
+}
+
+.location-wrapper{
+    height: 500px;
+    background-image: url("img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.location-container{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.locations{
+    line-height: 65px;
+    width: 300px;
+    margin: 20px;
+    background-color: black;    
+}
+
+.footer-container{
+    text-align: center;
+    margin: 5px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.copyright{
+    margin-left: 20px;
+    text-align: left;
+    padding-bottom: 20px;
+}
